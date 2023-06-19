@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>continue</title>
+  <link rel="stylesheet" href="../css/continue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-menu">
+        <div class="nav-logo">
+          <img src="../images/nav-logo.svg" alt="nav-logo">
+        </div>
+        <div class="menu">
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contacts</a>
+          <button><a href="../pages/login.html">Log in</a></button>
+          <button>Open an account</button>
+          <button>EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="register">
+      <img src="../images/nav-logo.svg" alt="nav-logo">
+      <h1>Welcome to ByTrend!</h1>
+      <div  class="welcome">
+        <p>Already have an account?</p>
+        <a href="../pages/login.html">Log in</a>
+      </div>
+      <div class="continue">
+        <div class="email">
+          <label for="email">Email<span>*</span></label>
+          <br>
+          <input type="email" id="email">
+        </div>
+        <div class="phone">
+          <label for="code">Phone<span>*</span></label>
+          <br>
+          <div>
+            <input type="text" id="code">
+            <input type="tel" id="tel">
+          </div>
+        </div>
+        <div class="country-city">
+          <div class="country">
+            <label for="country">Country<span>*</span></label>
+            <br>
+            <select name="Country" id="country">
+              <option value="">Uzbakistan</option>
+              <option value="">Russia</option>
+              <option value="">England</option>
+              <option value="">France</option>
+              <option value="">Belgium</option>
+            </select>
+          </div>
+          <div class="city">
+            <label for="city">City<span>*</span></label>
+            <br>
+            <input type="text" id="city">
+          </div>
+        </div>
+        <div class="password">
+          <label for="password">Password<span>*</span></label>
+          <div class="password-box">
+            <input type="password" name="password" id="password" />
+            <i class="bi bi-eye-slash" id="togglePassword"></i>
+          </div>
+        </div>
+      </div>
+      <div class="confirm">
+        <label for="confirm">Confirm password<span>*</span></label>
+        <br>
+        <input type="text" id="confirm">
+      </div>
+      <a href="../bytrend.html"><button>Register</button></a>
+    </div>
+  </main>
+  <footer>
+    <p>By signing up, you are agreeing to our <span> Terms & Conditions </span> and <span> Privacy Policy.</span></p>
+  </footer>
+  <script src="../js/eye.js"></script>
+</body>
+</html>

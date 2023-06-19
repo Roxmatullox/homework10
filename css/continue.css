@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+.nav-menu {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position:fixed;
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu button {
+  background: none;
+  border-radius: 5px;
+}
+
+.register {
+  width: 496px;
+  height: 849px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+main {
+  height: 1040px;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register > img {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  margin-left: 197px;
+  margin-right: 197px;
+}
+
+.register h1 {
+  margin-left: 102px;
+  margin-bottom: 16px;
+}
+
+.welcome  {
+  display: flex;
+  margin-left: 131px;
+  gap: 14px;
+}
+
+.welcome a {
+  color: #01BAB3;
+}
+
+footer {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
+  width:366.7px;
+  height:46.92px;
+  font-size: 14px;
+}
+
+footer span {
+  color: #01BAB3;
+}
+
+.email {
+  margin-top: 39.08px;
+  margin-left: 40px;
+}
+
+.email input {
+  width: 414.54px;
+  height: 45.28px;
+  margin-top: 8px;
+  border-radius: 6px;
+
+}
+
+span {
+  color: #01BAB3;
+}
+
+.phone {
+  margin-left: 40px;
+  margin-top: 22.64px;
+}
+
+.phone div {
+  display: flex;
+}
+
+#code {
+  width: 47.83px;
+  height: 45.28px;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+}
+
+#tel {
+  width: 365.71px;
+  border-radius: 0 6px 6px 0;
+}
+
+.country {
+  margin-top: 22.64px;
+  margin-left: 40px;
+}
+
+.country select {
+  width: 200px;
+  height: 48px;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+
+.country-city {
+  display: flex;
+  gap: 16px;
+}
+
+.city {
+  margin-top: 22.64px;
+}
+
+.city input  {
+  width: 200px;
+  height: 48px;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+
+.password{
+  margin-left: 40px;
+  margin-top: 22.64px;
+}
+
+.password-box {
+  margin-top: 8px;
+}
+
+.password-box input{
+  width:414.54px;
+  height:45.28px;
+  border-radius: 6px;
+}
+
+.confirm {
+  margin-top: 22.64px;
+  margin-left: 40px;
+}
+
+.confirm input {
+  width: 414.54px;
+  height: 45.28px;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+a > button {
+  width: 414.54px;
+  height: 51.18px;
+  margin-left: 40px;
+  margin-top: 87.06px;
+  border-radius: 6px;
+  background-color: #01BAB3;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.password img {
+  position: sticky;
+}

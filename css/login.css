@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+.nav-menu {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position:fixed;
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu button {
+  background: none;
+  border-radius: 5px;
+}
+
+.register {
+  width: 496px;
+  height: 849px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+main {
+  height: 1040px;
+  background-color: #F4F8FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register > img {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  margin-left: 197px;
+  margin-right: 197px;
+}
+
+.register h1 {
+  margin-left: 102px;
+  margin-bottom: 16px;
+}
+
+.welcome  {
+  display: flex;
+  margin-left: 131px;
+  gap: 14px;
+}
+
+.welcome a {
+  color: #01BAB3;
+}
+
+footer {
+  height: 50px;
+  display: flex;
+  background-color: #F4F8FA;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  margin-top: 39.08px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.email input {
+  width: 414.54px;
+  height: 45.28px;
+  margin-top: 8px;
+  border-radius: 6px;
+
+}
+
+.password{
+  margin-left: 40px;
+  margin-top: 52.64px;
+}
+
+.password-box {
+  margin-top: 8px;
+}
+
+.password-box input{
+  width:414.54px;
+  height:45.28px;
+  border-radius: 6px;
+}
+
+.register-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.register-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.register> button {
+  width: 416px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 96px;
+  margin-left: 40px;
+  background-color: #01BAB3;
+  border: none;
+  border-radius: 6px;
+}
